@@ -32,3 +32,4 @@ window.addEventListener('load', (e) => {
         dayNight.querySelector('i').classList.add('fa-moon');
     }
 })
+
