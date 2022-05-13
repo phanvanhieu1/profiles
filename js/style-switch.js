@@ -7,6 +7,18 @@ window.addEventListener('scroll', (e) => {
         document.querySelector('.style-switcher').classList.remove('open');
     }
 })
+//mo modal
+// const modalToggle = document.querySelector('.btn-gui');
+// modalToggle.addEventListener('click', () => {
+//     document.querySelector('.modal').classList.toggle('open');
+// })
+// window.addEventListener('scroll', (a) => {
+//     if(document.querySelector('.modal').classList.contains('open') && !a.target.classList.contains('btn-gui')) {
+//         document.querySelector('.modal').classList.remove('open');
+//     }
+// })
+// console.log(modalToggle);
+//end modal
 const alterateStyle = document.querySelectorAll('.alternate-style');
 function setActiveStyle(color) {
     alterateStyle.forEach((style) => {
