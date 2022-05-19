@@ -370,6 +370,7 @@ h3.my-profession{
     color: var(--text-black-900);
     border-bottom: 1px solid var(--bg-black-50);
     margin-bottom: 44px;
+    display:flex;
 }
 .about .about-content .personal-info .info-item p span{
     font-weight: 400;
